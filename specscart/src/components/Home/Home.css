@@ -1,18 +1,38 @@
 .bimg{
-    background-image: url('https://www.teahub.io/photos/full/100-1001831_ultra-hd-pc-desktop-wallpaper-4k.jpg');
+background-image: url('/src/images/Banner.jpg');
     background-position: bottom;
-    height: 500px;
+    height: 800px;
   background-size: cover;
     width: 100%;
     display: flex;
       align-items: center;
       justify-content: center;
-      /* opacity: calc(0.); */
-      opacity: calc(0.9);
 
     
 }
-  
+/* .specs{
+    height: 50vh;
+    margin-top: 0.5rem;
+    justify-content: flex-end;
+
+} */
+.homi{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.home1{
+    display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+  .ctn{
+    padding: 0px 50px;
+    background-color: #55acee;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+  }
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -47,6 +67,7 @@
       color: orangered;
       font-size: xx-large;
       font-weight: 900;
+      
   }
   .icons{
     display: flex;
@@ -83,21 +104,5 @@
       justify-content: center;
       background-color: slateblue;
     }
-  .different{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .skills{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .experience{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .left-container{
-    
-  }
+  
+  

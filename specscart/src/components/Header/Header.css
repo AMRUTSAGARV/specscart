@@ -6,22 +6,21 @@ ul{
   
   .navbar{
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     justify-content: space-between;
     padding: 20px;
+    background-color:#fff;
   
   }
   
   .nav-links{
     display: flex;
     align-items: center;
-    color: #bb0000;
   }
   
   .nav-links li{
     margin: 0px 30px;
-    background-color: black;
   }
