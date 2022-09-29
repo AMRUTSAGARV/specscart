@@ -1,21 +1,14 @@
 .bimg{
 background-image: url('/src/images/Banner.jpg');
     background-position: bottom;
-    height: 800px;
+    height: 750px;
   background-size: cover;
     width: 100%;
     display: flex;
       align-items: center;
       justify-content: center;
-
-    
 }
-/* .specs{
-    height: 50vh;
-    margin-top: 0.5rem;
-    justify-content: flex-end;
 
-} */
 .homi{
     margin: 1rem;
     padding: 2rem 2rem;
@@ -26,6 +19,12 @@ background-image: url('/src/images/Banner.jpg');
   padding: 1rem 1rem;
   vertical-align: middle;
 }
+/* .img2{
+    padding: 50px;
+    width: 100%;
+    
+} */
+
   .ctn{
     padding: 0px 50px;
     background-color: #55acee;
@@ -33,27 +32,13 @@ background-image: url('/src/images/Banner.jpg');
     color: whitesmoke;
     text-decoration: none;
   }
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
+
   .home_trial{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: orangered;
+      color: rgb(88, 24, 88);
       font-weight: 900;
       font-size: small;
 
@@ -63,8 +48,7 @@ background-image: url('/src/images/Banner.jpg');
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: larger;
-      color: orangered;
+      color: rgb(43, 15, 43);
       font-size: xx-large;
       font-weight: 900;
       
@@ -74,35 +58,54 @@ background-image: url('/src/images/Banner.jpg');
     align-items: center;
     justify-content: center;
   }
-  .aboutme{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .content2_parent{
+padding: 65px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   }
-  .mydetails{
+  .content2{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(43, 15, 43);
+    font-size: xx-large;
+    font-weight: 900; 
+    padding: 30px;
+    
+ }
+  .content2_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: small;
+    text-align: center;
+        padding: 3px;
+
+    
   }
-  .myprojects{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: slateblue;
-    height: 100%;
+  .second_content{
+    background-image: url('/src/images/7.jpg');
+    border-radius: 30px;
     width: 100%;
-    }
-    .pdetails{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: slateblue;
-    }
-    .also{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: slateblue;
-    }
-  
-  
+    height: 500px;
+    padding: 30px;
+    margin-top: 60px;
+}
+.ctn2{
+    padding: 7px 50px ; 
+margin: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: rgb(43, 15, 43);
+    text-decoration: none;    
+    
+    
+}
+.anti{
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 250px;
+    font-size: large;
+}

@@ -1,9 +1,11 @@
 /* ///header */
 ul{
     list-style: none;
-  
+}
+  a{
+    text-decoration: none;
+
   }
-  
   .navbar{
     display: flex;
     position: fixed;
@@ -11,16 +13,21 @@ ul{
     left: 0;
     width: 100%;
     justify-content: space-between;
-    padding: 20px;
+    padding:  20px;
     background-color:#fff;
-  
+    color: rgb(88, 24, 88);
+
   }
-  
   .nav-links{
     display: flex;
     align-items: center;
   }
-  
   .nav-links li{
     margin: 0px 30px;
+    font-weight: 700;
+  }
+  .logo{
+    margin-right: 50%;
+   height: 100%;
+    background: red;
   }

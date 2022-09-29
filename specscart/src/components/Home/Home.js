@@ -3,6 +3,7 @@ import "./Home.css";
 import lens from "../../images/Group6248.png";
 import pen from "../../images/Image35.png";
 import specs from "../../images/Image39.png";
+import image_two from "../../images/7.jpg";
 
 const Home = () => {
   return (
@@ -27,18 +28,25 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aboutme">Page One</div>
-      <div className="mydetails">Texts for page One</div>
-      <div className="icons">
-        <a href="#" className="fa fa-twitter"></a>
-
-        <a href="#" className="fa fa-linkedin"></a>
-        <a href="#" className="fa fa-youtube"></a>
-      </div>
-      <div className="myprojects">Page 2 </div>
-      <div className="pdetails">Texts for Page 2</div>
-      <div className="also">
-        Also have build front end of an Ecommerce App, Imdb App
+      <div className="content2_parent">
+        <div className="content2">
+          4 frames, 3 lenses, 7 days - direct to your home.
+        </div>
+        <div className="content2_text">
+          We get it - sometimes you need to hold the glasses in your hand (or
+          take a selfie wearing them) to know if they're made for you or not.
+          With our Free Home Trial, get 4 frames of your choice at your home,
+          along with 3 cool lenses.
+        </div>
+        <div className="second_content">
+          <div className="anti">Anti Reflective Glasses</div>
+          <a href="#" className="ctn2">
+            Shop Men
+          </a>
+          <a href="#" className="ctn2">
+            Shop Women
+          </a>
+        </div>
       </div>
     </div>
   );

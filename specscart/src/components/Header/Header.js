@@ -4,22 +4,22 @@ import "./Header.css";
 const Header = () => {
   return (
     <nav class="navbar">
-      <h1 class="logo">Specscart</h1>
       <ul class="nav-links">
         <li>
-          <a href="#"></a>Glasses
+          <a href="#">Glasses</a>
         </li>
         <li>
-          <a href="#"></a>Sunglasses
+          <a href="#">Sunglasses</a>
         </li>
 
         <li>
-          <a href="#"></a>Eye-Test
+          <a href="#">Eye-Test</a>
         </li>
         <li>
-          <a href="#"></a>Blogs
+          <a href="#">Blogs</a>
         </li>
       </ul>
+      <h1 class="logo">Specscart</h1>
     </nav>
   );
 };
