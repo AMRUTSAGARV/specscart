@@ -1,0 +1,103 @@
+.bimg{
+    background-image: url('https://www.teahub.io/photos/full/100-1001831_ultra-hd-pc-desktop-wallpaper-4k.jpg');
+    background-position: bottom;
+    height: 500px;
+  background-size: cover;
+    width: 100%;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      /* opacity: calc(0.); */
+      opacity: calc(0.9);
+
+    
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .home_trial{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: orangered;
+      font-weight: 900;
+      font-size: small;
+
+  }
+  .its_an{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: larger;
+      color: orangered;
+      font-size: xx-large;
+      font-weight: 900;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mydetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .myprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slateblue;
+    height: 100%;
+    width: 100%;
+    }
+    .pdetails{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: slateblue;
+    }
+    .also{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: slateblue;
+    }
+  .different{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-container{
+    
+  }
