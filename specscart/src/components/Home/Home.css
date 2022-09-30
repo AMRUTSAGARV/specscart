@@ -26,10 +26,11 @@ background-image: url('/src/images/Banner.jpg');
 } */
 
   .ctn{
-    padding: 0px 50px;
-    background-color: #55acee;
+    padding: 0px 45px;
+    background-color: #088F8F;
     border-radius: 30px;
     color: whitesmoke;
+    font-weight: 500;
     text-decoration: none;
   }
 
@@ -37,17 +38,20 @@ background-image: url('/src/images/Banner.jpg');
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       display: flex;
       align-items: center;
-      justify-content: center;
+      padding: 16px;
+      /* justify-content: center; */
       color: rgb(88, 24, 88);
       font-weight: 900;
       font-size: small;
 
   }
   .its_an{
+    padding: 10px;
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       display: flex;
       align-items: center;
-      justify-content: center;
+      /* justify-content: center; */
       color: rgb(43, 15, 43);
       font-size: xx-large;
       font-weight: 900;
